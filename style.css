@@ -1,0 +1,361 @@
+*,
+*::after,
+*::before {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ------------------------------------ nav ------------------------------------- */
+
+
+/* customize letter spacing  */
+.c-l-s-nav {
+    letter-spacing: 1px;
+}
+
+.c-l-s-nav1 {
+    letter-spacing: 0.3px;
+}
+
+.bg-opacity-80 {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* ------------------------------------ header ------------------------------------- */
+
+header {
+    background-image: url("image/hero-bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.hero-title {
+    font-size: 4.5rem;
+}
+
+.morgan-div {
+
+    width: 80%;
+}
+
+
+.bg-blue-color {
+    background-color: #CDE1F8;
+}
+
+
+
+
+/* ------------------------------------ services ------------------------------------- */
+
+.services {
+    position: relative;
+}
+
+.services::after {
+    content: "";
+    background-color: #0078FF;
+    height: 5px;
+    width: 2.3rem;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fs-services {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.icon-services {
+    font-size: 2.5rem;
+    list-style: none;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 0px auto;
+    border-width: 20rem;
+
+    border: 10px solid #0078FF;
+    background-color: white;
+    color: black;
+    transition: 0.5s border, 0.5s background-color, 0.5s color;
+}
+
+
+.change-color:hover .icon-services {
+
+    border: 10px solid #CDE1F8;
+    background-color: #0078FF;
+    color: white;
+
+}
+
+
+.bg-num {
+    background-image: url(image/counters-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-num-blue {
+    background: rgba(13, 110, 253, 0.7);
+}
+
+.item {
+    height: px;
+
+}
+
+.item div {
+    border: 9px #CDE1F8 solid;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-num {
+    font-size: 2rem;
+}
+
+
+/* ------------------------------------ PORTFOLIO ------------------------------------- */
+
+
+.portfolio-img {
+    overflow: hidden;
+}
+
+.portfolio-img img {
+    width: 100%;
+    transition: 1s transform;
+
+}
+
+.portfolio-img:hover img {
+    transform: scale(1.3);
+}
+
+.portfolio-text h2 {
+    font-size: 19.2px;
+    font-weight: 500;
+}
+
+.portfolio-text p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.icon-portfolio {
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.bg-Carousel {
+    background-image: url(image/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-Carousel-blue {
+    background: rgba(13, 110, 253, 0.7);
+}
+
+.author-img {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.author-span {
+    font-size: 22.4px;
+    font-weight: 600;
+    line-height: 33.6px;
+    color: white;
+}
+
+.author-p {
+    width: 70%;
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: white;
+    width: 0.62rem;
+    height: 0.62rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+}
+
+/* ------------------------------------ BLOG ------------------------------------- */
+
+
+.blog-img {
+    overflow: hidden;
+}
+
+.blog-img img {
+    width: 100%;
+    transition: 1s transform;
+
+}
+
+
+.travel-text {
+    top: 51.5%;
+    left: 50%;
+}
+
+.blog-text h3 {
+    font-size: 20.8px;
+    font-weight: 500;
+    color: black;
+    margin: 9.6px 0px 8px;
+}
+
+.blog-text h3 a {
+    color: inherit;
+
+}
+
+.blog-text p {
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+
+.blog-img-profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* ------------------------------------ CONTACT ------------------------------------- */
+
+.message {
+    position: relative;
+}
+
+.message::after {
+    content: "";
+    background-color: #0078FF;
+    height: 3px;
+    width: 6rem;
+    position: absolute;
+    top: 15%;
+    left: 9.5%;
+    transform: translate(-50%, -50%);
+}
+
+.fs-message {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+}
+
+
+
+.inputs input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 10px 15px;
+    border: solid #DEE2E6;
+    width: 98%;
+}
+
+.inputs textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 10px 15px;
+    border: solid #DEE2E6;
+    width: 98%;
+}
+
+.send-b {
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+
+
+.touch {
+    position: relative;
+}
+
+.touch::after {
+    content: "";
+    background-color: #0078FF;
+    height: 3px;
+    width: 6rem;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ico-circle {
+    padding: 10px;
+    margin: 0 15px 0 0;
+    border: #0078FF 3px solid;
+    background-color: white;
+    transition: 0.5s border, background-color 0.5s;
+}
+
+.ico-circle i {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: black;
+    transition: 0.5s color;
+}
+
+.ico-circle:hover {
+    border: #CDE1F8 3px solid;
+    background-color: #0078FF;
+}
+
+.ico-circle:hover i {
+
+    color: white;
+}
+
+
+/* ------------------------------------ footer ------------------------------------- */
+
+.copyright {
+    margin-bottom: 0.3rem;
+}
